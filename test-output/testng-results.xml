@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-03T11:54:32 CET" name="Entrata Automation Test Suite" finished-at="2024-03-03T11:54:43 CET" duration-ms="10315">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="HomePageTest.verifyOpenEntrataHomePageTest()[pri:1, instance:com.entrata.testcases.HomePageTest@5890e879]" name="verifyOpenEntrataHomePageTest" class="com.entrata.testcases.HomePageTest"/>
+        <method signature="TakeTheTourPageTest.verifyEntrataTakeTheTourButtonTest()[pri:1, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyEntrataTakeTheTourButtonTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="TakeTheTourPageTest.verifyFirstNameTextFieldTest()[pri:2, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyFirstNameTextFieldTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="HomePageTest.verifyEntrataProductsRangeTest()[pri:3, instance:com.entrata.testcases.HomePageTest@5890e879]" name="verifyEntrataProductsRangeTest" class="com.entrata.testcases.HomePageTest"/>
+        <method signature="TakeTheTourPageTest.verifyLastNameTextFieldTest()[pri:3, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyLastNameTextFieldTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="HomePageTest.verifyEntrataPropertyManagementProductsTest()[pri:4, instance:com.entrata.testcases.HomePageTest@5890e879]" name="verifyEntrataPropertyManagementProductsTest" class="com.entrata.testcases.HomePageTest"/>
+        <method signature="TakeTheTourPageTest.verifyEmailTextFieldTest()[pri:4, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyEmailTextFieldTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="HomePageTest.verifyEntrataMarketingAndLeasingProductsTest()[pri:5, instance:com.entrata.testcases.HomePageTest@5890e879]" name="verifyEntrataMarketingAndLeasingProductsTest" class="com.entrata.testcases.HomePageTest"/>
+        <method signature="TakeTheTourPageTest.verifyCompanyNameFieldTest()[pri:5, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyCompanyNameFieldTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="HomePageTest.verifyEntrataAccountingProductsTest()[pri:6, instance:com.entrata.testcases.HomePageTest@5890e879]" name="verifyEntrataAccountingProductsTest" class="com.entrata.testcases.HomePageTest"/>
+        <method signature="TakeTheTourPageTest.verifyPhoneFieldTest()[pri:6, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyPhoneFieldTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="HomePageTest.verifyEntrataUtilitiesProductsTest()[pri:7, instance:com.entrata.testcases.HomePageTest@5890e879]" name="verifyEntrataUtilitiesProductsTest" class="com.entrata.testcases.HomePageTest"/>
+        <method signature="TakeTheTourPageTest.verifyUnitCountDropdownFieldTest()[pri:7, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyUnitCountDropdownFieldTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="HomePageTest.verifyEntrataAllSolutionsTest()[pri:8, instance:com.entrata.testcases.HomePageTest@5890e879]" name="verifyEntrataAllSolutionsTest" class="com.entrata.testcases.HomePageTest"/>
+        <method signature="TakeTheTourPageTest.verifyTitleFieldTest()[pri:8, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyTitleFieldTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="TakeTheTourPageTest.verifydemoRequestDropdownFieldTest()[pri:9, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifydemoRequestDropdownFieldTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="TakeTheTourPageTest.verifyWatchDemoButtonTest()[pri:10, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyWatchDemoButtonTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="HomePageTest.verifyOpenEntrataHomePageTest()[pri:1, instance:com.entrata.testcases.HomePageTest@5890e879]" name="verifyOpenEntrataHomePageTest" class="com.entrata.testcases.HomePageTest"/>
+        <method signature="TakeTheTourPageTest.verifyEntrataTakeTheTourButtonTest()[pri:1, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyEntrataTakeTheTourButtonTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="TakeTheTourPageTest.verifyFirstNameTextFieldTest()[pri:2, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyFirstNameTextFieldTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="HomePageTest.verifyEntrataProductsRangeTest()[pri:3, instance:com.entrata.testcases.HomePageTest@5890e879]" name="verifyEntrataProductsRangeTest" class="com.entrata.testcases.HomePageTest"/>
+        <method signature="TakeTheTourPageTest.verifyLastNameTextFieldTest()[pri:3, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyLastNameTextFieldTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="HomePageTest.verifyEntrataPropertyManagementProductsTest()[pri:4, instance:com.entrata.testcases.HomePageTest@5890e879]" name="verifyEntrataPropertyManagementProductsTest" class="com.entrata.testcases.HomePageTest"/>
+        <method signature="TakeTheTourPageTest.verifyEmailTextFieldTest()[pri:4, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyEmailTextFieldTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="HomePageTest.verifyEntrataMarketingAndLeasingProductsTest()[pri:5, instance:com.entrata.testcases.HomePageTest@5890e879]" name="verifyEntrataMarketingAndLeasingProductsTest" class="com.entrata.testcases.HomePageTest"/>
+        <method signature="TakeTheTourPageTest.verifyCompanyNameFieldTest()[pri:5, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyCompanyNameFieldTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="HomePageTest.verifyEntrataAccountingProductsTest()[pri:6, instance:com.entrata.testcases.HomePageTest@5890e879]" name="verifyEntrataAccountingProductsTest" class="com.entrata.testcases.HomePageTest"/>
+        <method signature="TakeTheTourPageTest.verifyPhoneFieldTest()[pri:6, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyPhoneFieldTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="HomePageTest.verifyEntrataUtilitiesProductsTest()[pri:7, instance:com.entrata.testcases.HomePageTest@5890e879]" name="verifyEntrataUtilitiesProductsTest" class="com.entrata.testcases.HomePageTest"/>
+        <method signature="TakeTheTourPageTest.verifyUnitCountDropdownFieldTest()[pri:7, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyUnitCountDropdownFieldTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="HomePageTest.verifyEntrataAllSolutionsTest()[pri:8, instance:com.entrata.testcases.HomePageTest@5890e879]" name="verifyEntrataAllSolutionsTest" class="com.entrata.testcases.HomePageTest"/>
+        <method signature="TakeTheTourPageTest.verifyTitleFieldTest()[pri:8, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyTitleFieldTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="TakeTheTourPageTest.verifydemoRequestDropdownFieldTest()[pri:9, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifydemoRequestDropdownFieldTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+        <method signature="TakeTheTourPageTest.verifyWatchDemoButtonTest()[pri:10, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" name="verifyWatchDemoButtonTest" class="com.entrata.testcases.TakeTheTourPageTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2024-03-03T11:54:32 CET" name="Entrata Automation Test" finished-at="2024-03-03T11:54:43 CET" duration-ms="10315">
+      <class name="com.entrata.testcases.TakeTheTourPageTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:37 CET" name="start" finished-at="2024-03-03T11:54:37 CET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="verifyEntrataTakeTheTourButtonTest()[pri:1, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:37 CET" name="verifyEntrataTakeTheTourButtonTest" finished-at="2024-03-03T11:54:40 CET" duration-ms="3102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEntrataTakeTheTourButtonTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:40 CET" name="tearDown" finished-at="2024-03-03T11:54:40 CET" duration-ms="56" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEntrataTakeTheTourButtonTest status=SUCCESS method=TakeTheTourPageTest.verifyEntrataTakeTheTourButtonTest()[pri:1, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyFirstNameTextFieldTest()[pri:2, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:40 CET" name="verifyFirstNameTextFieldTest" finished-at="2024-03-03T11:54:40 CET" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstNameTextFieldTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:40 CET" name="tearDown" finished-at="2024-03-03T11:54:40 CET" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFirstNameTextFieldTest status=SUCCESS method=TakeTheTourPageTest.verifyFirstNameTextFieldTest()[pri:2, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyLastNameTextFieldTest()[pri:3, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:40 CET" name="verifyLastNameTextFieldTest" finished-at="2024-03-03T11:54:40 CET" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLastNameTextFieldTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:40 CET" name="tearDown" finished-at="2024-03-03T11:54:40 CET" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLastNameTextFieldTest status=SUCCESS method=TakeTheTourPageTest.verifyLastNameTextFieldTest()[pri:3, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyEmailTextFieldTest()[pri:4, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:40 CET" name="verifyEmailTextFieldTest" finished-at="2024-03-03T11:54:41 CET" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailTextFieldTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:41 CET" name="tearDown" finished-at="2024-03-03T11:54:41 CET" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmailTextFieldTest status=SUCCESS method=TakeTheTourPageTest.verifyEmailTextFieldTest()[pri:4, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyCompanyNameFieldTest()[pri:5, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:41 CET" name="verifyCompanyNameFieldTest" finished-at="2024-03-03T11:54:41 CET" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompanyNameFieldTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:41 CET" name="tearDown" finished-at="2024-03-03T11:54:41 CET" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCompanyNameFieldTest status=SUCCESS method=TakeTheTourPageTest.verifyCompanyNameFieldTest()[pri:5, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyPhoneFieldTest()[pri:6, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:41 CET" name="verifyPhoneFieldTest" finished-at="2024-03-03T11:54:41 CET" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPhoneFieldTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:41 CET" name="tearDown" finished-at="2024-03-03T11:54:41 CET" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPhoneFieldTest status=SUCCESS method=TakeTheTourPageTest.verifyPhoneFieldTest()[pri:6, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyUnitCountDropdownFieldTest()[pri:7, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:41 CET" name="verifyUnitCountDropdownFieldTest" finished-at="2024-03-03T11:54:42 CET" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnitCountDropdownFieldTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:42 CET" name="tearDown" finished-at="2024-03-03T11:54:42 CET" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUnitCountDropdownFieldTest status=SUCCESS method=TakeTheTourPageTest.verifyUnitCountDropdownFieldTest()[pri:7, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyTitleFieldTest()[pri:8, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:42 CET" name="verifyTitleFieldTest" finished-at="2024-03-03T11:54:42 CET" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleFieldTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:42 CET" name="tearDown" finished-at="2024-03-03T11:54:42 CET" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitleFieldTest status=SUCCESS method=TakeTheTourPageTest.verifyTitleFieldTest()[pri:8, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifydemoRequestDropdownFieldTest()[pri:9, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:42 CET" name="verifydemoRequestDropdownFieldTest" finished-at="2024-03-03T11:54:42 CET" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydemoRequestDropdownFieldTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:42 CET" name="tearDown" finished-at="2024-03-03T11:54:42 CET" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifydemoRequestDropdownFieldTest status=SUCCESS method=TakeTheTourPageTest.verifydemoRequestDropdownFieldTest()[pri:9, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyWatchDemoButtonTest()[pri:10, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:42 CET" name="verifyWatchDemoButtonTest" finished-at="2024-03-03T11:54:43 CET" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWatchDemoButtonTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c]" started-at="2024-03-03T11:54:43 CET" name="tearDown" finished-at="2024-03-03T11:54:43 CET" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWatchDemoButtonTest status=SUCCESS method=TakeTheTourPageTest.verifyWatchDemoButtonTest()[pri:10, instance:com.entrata.testcases.TakeTheTourPageTest@2b40ff9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.entrata.testcases.TakeTheTourPageTest -->
+      <class name="com.entrata.testcases.HomePageTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:26 CET" name="openBrowser" finished-at="2024-03-03T11:54:32 CET" duration-ms="6194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="start()[pri:0, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:33 CET" name="start" finished-at="2024-03-03T11:54:33 CET" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="verifyOpenEntrataHomePageTest()[pri:1, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:33 CET" name="verifyOpenEntrataHomePageTest" finished-at="2024-03-03T11:54:33 CET" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenEntrataHomePageTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:33 CET" name="tearDown" finished-at="2024-03-03T11:54:34 CET" duration-ms="644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOpenEntrataHomePageTest status=SUCCESS method=HomePageTest.verifyOpenEntrataHomePageTest()[pri:1, instance:com.entrata.testcases.HomePageTest@5890e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyEntrataProductsRangeTest()[pri:3, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:34 CET" name="verifyEntrataProductsRangeTest" finished-at="2024-03-03T11:54:35 CET" duration-ms="1216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEntrataProductsRangeTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:35 CET" name="tearDown" finished-at="2024-03-03T11:54:35 CET" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEntrataProductsRangeTest status=SUCCESS method=HomePageTest.verifyEntrataProductsRangeTest()[pri:3, instance:com.entrata.testcases.HomePageTest@5890e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyEntrataPropertyManagementProductsTest()[pri:4, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:35 CET" name="verifyEntrataPropertyManagementProductsTest" finished-at="2024-03-03T11:54:36 CET" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEntrataPropertyManagementProductsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:36 CET" name="tearDown" finished-at="2024-03-03T11:54:36 CET" duration-ms="34" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEntrataPropertyManagementProductsTest status=SUCCESS method=HomePageTest.verifyEntrataPropertyManagementProductsTest()[pri:4, instance:com.entrata.testcases.HomePageTest@5890e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyEntrataMarketingAndLeasingProductsTest()[pri:5, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:36 CET" name="verifyEntrataMarketingAndLeasingProductsTest" finished-at="2024-03-03T11:54:36 CET" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEntrataMarketingAndLeasingProductsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:36 CET" name="tearDown" finished-at="2024-03-03T11:54:36 CET" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEntrataMarketingAndLeasingProductsTest status=SUCCESS method=HomePageTest.verifyEntrataMarketingAndLeasingProductsTest()[pri:5, instance:com.entrata.testcases.HomePageTest@5890e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyEntrataAccountingProductsTest()[pri:6, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:36 CET" name="verifyEntrataAccountingProductsTest" finished-at="2024-03-03T11:54:36 CET" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEntrataAccountingProductsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:36 CET" name="tearDown" finished-at="2024-03-03T11:54:36 CET" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEntrataAccountingProductsTest status=SUCCESS method=HomePageTest.verifyEntrataAccountingProductsTest()[pri:6, instance:com.entrata.testcases.HomePageTest@5890e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyEntrataUtilitiesProductsTest()[pri:7, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:36 CET" name="verifyEntrataUtilitiesProductsTest" finished-at="2024-03-03T11:54:36 CET" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEntrataUtilitiesProductsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:36 CET" name="tearDown" finished-at="2024-03-03T11:54:36 CET" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEntrataUtilitiesProductsTest status=SUCCESS method=HomePageTest.verifyEntrataUtilitiesProductsTest()[pri:7, instance:com.entrata.testcases.HomePageTest@5890e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyEntrataAllSolutionsTest()[pri:8, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:36 CET" name="verifyEntrataAllSolutionsTest" finished-at="2024-03-03T11:54:37 CET" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEntrataAllSolutionsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:37 CET" name="tearDown" finished-at="2024-03-03T11:54:37 CET" duration-ms="76" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEntrataAllSolutionsTest status=SUCCESS method=HomePageTest.verifyEntrataAllSolutionsTest()[pri:8, instance:com.entrata.testcases.HomePageTest@5890e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.entrata.testcases.HomePageTest@5890e879]" started-at="2024-03-03T11:54:43 CET" name="closeBrowser" finished-at="2024-03-03T11:54:43 CET" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.entrata.testcases.HomePageTest -->
+    </test> <!-- Entrata Automation Test -->
+  </suite> <!-- Entrata Automation Test Suite -->
+</testng-results>
